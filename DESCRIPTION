@@ -1,0 +1,22 @@
+Package: Rgwas
+Type: Package
+Title: This package performs GWAS by single marker analysis using a general linear model.
+Version: 0.1.0
+Author: Aichatou Djibo Waziri, Richard Manasseh
+Maintainer: Aichatou Djibo Waziri <a.djibowaziri@wsu.edu>
+Description: This package has been developped by students with an intermediate understanding of R. 
+              Thus, instead of wriing just one function to perform the entire GWAS, 
+              we wanted to break it down to small functions so that it will be easy to understand
+              for people with a limited knowledge of the R language like us. 
+License: MIT license
+Encoding: UTF-8
+LazyData: true
+Imports:
+ ggplot2,
+ knitr,
+ gridExtra,
+ data.table,
+ mgcv,
+ factoextra,
+ compiler,
+RoxygenNote: 7.0.2
